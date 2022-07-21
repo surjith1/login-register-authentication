@@ -1,0 +1,13 @@
+
+.reset-psw-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+.form-group input {
+    min-width: 500px;
+}
