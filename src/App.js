@@ -32,7 +32,7 @@ function App() {
         <Route
           path="/password-reset/:id/:token"
           exact
-          element={<PasswordReset />}
+          element={<PasswordReset BASEURL={BASEURL} />}
         />
       </Routes>
     </div>
